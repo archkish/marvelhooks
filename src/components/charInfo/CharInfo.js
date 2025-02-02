@@ -18,13 +18,6 @@ const CharInfo = (props) =>  {
     updateChar()
   }, [props.charId])
 
-  // componentDidUpdate(prevProps) {
-  //   if(props.charId !== prevProps.charId) {
-  //     updateChar()
-  //   }
-  // };
-
-
   const updateChar = () => {
     const { charId } = props;
     if (!charId) {
